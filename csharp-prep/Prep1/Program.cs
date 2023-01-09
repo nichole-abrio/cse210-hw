@@ -36,6 +36,7 @@ class Program
         // string school = "BYU-Idaho";
         // Console.WriteLine($"I am studying at {school}."); //also uses curly braces like f-strings! ٩(｡•́‿•̀｡)۶
 
+        //Ask user for their name and repeats it like Bond, James Bond himself.
         Console.Write("What is your first name? ");
         string first = Console.ReadLine();
 
