@@ -39,19 +39,19 @@ class Program
         int squaredNumber = SquareNumber(userNumber);
         DisplayResult(userName, squaredNumber);
 
-        void DisplayWelcomeMessage()
+        void DisplayWelcomeMessage() //display welcome message 
         {
             Console.WriteLine("Welcome to the Program!");
         }
 
-        string PromptUserName()
+        string PromptUserName() //asks for and returns user;s name
         {
             Console.Write("Please enter your name: ");
             userName = Console.ReadLine();
             return userName;
         }
 
-        int PromptUserNumber()
+        int PromptUserNumber() //asks for and returns user's number
         {
             Console.Write("Please enter your favorite number: ");
             string x = Console.ReadLine();
@@ -59,14 +59,14 @@ class Program
             return userNumber;
         }
 
-        int SquareNumber(int userNumber)
+        int SquareNumber(int userNumber) //multiply no. by itself and returns the squared value
         {
             int numberSquared = userNumber * userNumber;
             return numberSquared;
 
         }
 
-        void DisplayResult(string name, int number) //don;t add ; after this line （；´д｀）ゞ
+        void DisplayResult(string name, int number) //don;t add ; after this line （；´д｀）ゞ //display result
         {
             Console.WriteLine($"{name}, the square of your number is {number}");
         }
