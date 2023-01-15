@@ -19,7 +19,7 @@ class Program
         do{
             
             menu1.DisplayMenu();
-            userChoice = menu1._userSelect();
+            userChoice = menu1.UserChoice();
 
             Console.WriteLine("");
 
@@ -27,7 +27,7 @@ class Program
             {
                 journal1._journalPrompt = prompt1.DisplayPrompt(); //store prompt
                 Console.Write("> ");
-                journal1._journalDate = journal1._makeDate(); //save date to make date var
+                journal1._journalDate = journal1.MakeDate(); //save date to make date var
                 journal1._journalEntry = Console.ReadLine(); //store journal entry
 
                 journal1.JournalDate.Add(journal1._journalDate);

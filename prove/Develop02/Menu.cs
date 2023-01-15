@@ -9,6 +9,7 @@ public class Menu
 
     public void DisplayMenu()
     {
+        Console.WriteLine("============================================");
         Console.WriteLine("Please select one of the following choice:");
         Console.WriteLine("1. Write");
         Console.WriteLine("2. Display");
@@ -17,7 +18,7 @@ public class Menu
         Console.WriteLine("5. Quit");
     }
 
-    public int _userSelect()
+    public int UserChoice()
     {
         Console.Write("What do you want to do? ");
         string x = Console.ReadLine();

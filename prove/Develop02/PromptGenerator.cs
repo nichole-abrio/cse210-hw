@@ -18,22 +18,22 @@ public class Prompt
     };
 
     //generate random no. within the range of no. of items in the list _prompts
-    int _generateNumber()
+    int GenerateNumber()
     {
         Random n = new Random();
         int number = n.Next(0, _prompts.Count);
         return number;
     }
 
-    public string promptOfTheDay()
+    public string PromptOfTheDay()
     {
-        int ranNo = _generateNumber();
+        int ranNo = GenerateNumber();
         return _prompts[ranNo];
     }
 
     public string DisplayPrompt()
     {
-        string p = promptOfTheDay();
+        string p = PromptOfTheDay();
         Console.WriteLine(p);
         return p;
     }

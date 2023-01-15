@@ -12,7 +12,7 @@ public class Journal
     public List<string> JournalPrompt = new List<string>();
    
 
-    public string _makeDate(){
+    public string MakeDate(){
         DateTime theCurrentTime = DateTime.Now;
         string dateText = theCurrentTime.ToShortDateString();
         return dateText;
