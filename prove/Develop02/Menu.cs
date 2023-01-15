@@ -29,7 +29,7 @@ public class Menu
 
     public void DisplayFarewell()
     {
-        Console.WriteLine("Goodbye!");
+        Console.WriteLine("Goodbye! o(*￣▽￣*)ブ");
     }
 
     public void DisplayErrorIncorrectNumber()
