@@ -20,7 +20,7 @@ public class FileSaving
         return file;
     }
 
-    public void WriteFile(string fileName, List<string> dates, List<string> prompts, List<string> entries)
+    public void WriteFile(string fileName, List<string> dates, List<string> prompts, List<string> entries) //save
     {
         StreamWriter sw = new StreamWriter(fileName);
 
