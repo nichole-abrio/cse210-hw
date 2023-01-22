@@ -7,7 +7,6 @@ public class Scriptures
     private static string verse;
     private static string passage;
 
-    private Random n = new Random();
 
     public string Verse{
         get{ return verse;}
