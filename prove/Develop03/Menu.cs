@@ -26,10 +26,6 @@ public class Menu
         return userChoice; 
     }
 
-    public void DisplayFarewell()
-    {
-        Console.WriteLine("Goodbye! o(*￣▽￣*)ブ");
-    }
 
     public void DisplayErrorIncorrectNumber()
     {
